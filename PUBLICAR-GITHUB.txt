@@ -1,0 +1,16 @@
+PUBLICAÇÃO DO CP3 NO GITHUB
+
+1. Crie um repositório vazio no GitHub (não marque para adicionar README).
+2. Abra o terminal dentro desta pasta extraída.
+3. Execute, substituindo USUARIO e REPOSITORIO pelos dados do repositório:
+
+git remote add origin https://github.com/USUARIO/REPOSITORIO.git
+git push -u origin main
+git push origin cp3-entrega
+
+4. No GitHub, entre em Settings > Pages.
+5. Em Build and deployment, escolha Deploy from a branch.
+6. Selecione branch main e pasta /(root), depois Save.
+7. Aguarde a URL HTTPS informada pelo GitHub.
+
+O repositório já contém a tag local cp3-entrega. Os comandos acima enviam a branch e a tag para o GitHub.
