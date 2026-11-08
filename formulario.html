@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Clara Puerta Lopes da Purificação</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="formulario-page">
+    <header>
+        <h1>Formulário de Contato</h1>
+        <p>Entre em contato com Clara Puerta Lopes da Purificação</p>
+    </header>
+
+    <nav aria-label="Navegação principal">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="curriculo.html">Currículo</a></li>
+            <li><a href="formulario.html" aria-current="page">Formulário</a></li>
+            <li><a href="multimidia.html">Multimídia</a></li>
+            <li><a href="graficos.html">Gráficos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Fale comigo</h2>
+            <p>Preencha os campos abaixo. Os campos obrigatórios possuem validação nativa do HTML.</p>
+
+            <form id="form-contato" novalidate>
+                <div class="form-grid">
+                    <div class="field">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" name="nome"
+                               placeholder="Digite seu nome completo" minlength="3" autocomplete="name" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="exemplo@email.com" autocomplete="email" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" autocomplete="tel"
+                               placeholder="(11) 99999-9999"
+                               pattern="[0-9() +\-]{10,18}" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="data">Data de contato</label>
+                        <input type="date" id="data" name="data" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione</option>
+                            <option value="oportunidade">Oportunidade profissional</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="projeto">Projeto</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="site">Seu site ou LinkedIn</label>
+                        <input type="url" id="site" name="site"
+                               placeholder="https://exemplo.com">
+                    </div>
+
+                    <div class="field full">
+                        <fieldset>
+                            <legend>Como prefere ser contatado?</legend>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="preferencia" value="email" required>
+                                    E-mail
+                                </label>
+                                <label>
+                                    <input type="radio" name="preferencia" value="telefone">
+                                    Telefone
+                                </label>
+                                <label>
+                                    <input type="radio" name="preferencia" value="whatsapp">
+                                    WhatsApp
+                                </label>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="field full">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="6"
+                                  placeholder="Digite sua mensagem" required></textarea>
+                    </div>
+
+                    <div class="field full">
+                        <label>
+                            <input type="checkbox" name="autorizacao" required>
+                            Autorizo o envio deste formulário para fins de contato.
+                        </label>
+                    </div>
+
+                    <div class="field full">
+                        <div class="options">
+                            <button class="btn-primary" type="submit">Enviar mensagem</button>
+                            <button class="btn-secondary" type="reset">Limpar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <p id="form-feedback" class="form-feedback" role="status" aria-live="polite"></p>
+            <section class="mensagens-salvas" aria-labelledby="mensagens-titulo">
+                <h2 id="mensagens-titulo">Mensagens salvas neste navegador</h2>
+                <p>As mensagens ficam armazenadas somente neste dispositivo, usando localStorage. Elas não são enviadas por e-mail nem para um servidor.</p>
+                <ul id="lista-mensagens" class="saved-list"></ul>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Clara Puerta Lopes da Purificação.</p>
+    </footer>
+    <script src="js/scripts.js" defer></script>
+</body>
+</html>

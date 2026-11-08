@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-labelledby="t d">
+<title id="t">Computador com código de programação</title>
+<desc id="d">Ilustração de um computador mostrando código na tela.</desc>
+<rect width="600" height="360" rx="24" fill="#ede9fe"/>
+<rect x="70" y="55" width="460" height="230" rx="14" fill="#1e1b4b"/>
+<rect x="95" y="82" width="410" height="175" rx="8" fill="#111827"/>
+<g font-family="monospace" font-size="18">
+<text x="120" y="120" fill="#c4b5fd">&lt;section&gt;</text>
+<text x="145" y="155" fill="#93c5fd">const</text>
+<text x="210" y="155" fill="#f9a8d4">site</text>
+<text x="270" y="155" fill="#fff">=</text>
+<text x="290" y="155" fill="#86efac">"Clara"</text>
+<text x="120" y="190" fill="#fbbf24">function</text>
+<text x="215" y="190" fill="#fff">portfolio()</text>
+<text x="145" y="225" fill="#c4b5fd">return</text>
+<text x="220" y="225" fill="#fff">"Olá!"</text>
+<text x="120" y="250" fill="#c4b5fd">&lt;/section&gt;</text>
+</g>
+<rect x="250" y="285" width="100" height="20" rx="10" fill="#4f46e5"/>
+<rect x="180" y="305" width="240" height="15" rx="8" fill="#7c3aed"/>
+</svg>

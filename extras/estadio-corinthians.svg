@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-labelledby="t d">
+<title id="t">Ilustração da Neo Química Arena</title>
+<desc id="d">Ilustração simples de um estádio de futebol.</desc>
+<rect width="600" height="360" rx="24" fill="#f5f6f7"/>
+<ellipse cx="300" cy="205" rx="220" ry="85" fill="#b51f26"/>
+<ellipse cx="300" cy="190" rx="175" ry="58" fill="#ffffff"/>
+<rect x="155" y="120" width="290" height="70" rx="12" fill="#222222"/>
+<rect x="175" y="138" width="250" height="34" rx="6" fill="#333333"/>
+<path d="M205 172 L225 120 M395 172 L375 120" stroke="#b51f26" stroke-width="8"/>
+<rect x="260" y="230" width="80" height="42" rx="4" fill="#ffffff"/>
+<path d="M270 272 V305 M330 272 V305" stroke="#222222" stroke-width="10"/>
+<text x="300" y="335" text-anchor="middle" font-family="Arial" font-size="20" fill="#b51f26">Neo Química Arena</text>
+</svg>
